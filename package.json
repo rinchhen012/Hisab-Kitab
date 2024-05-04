@@ -32,7 +32,7 @@
     "build": "tsc && vite build",
     "build:gh": "tsc && vite build --base=/payment-split/",
     "preview": "vite preview",
-    "predeploy": "yarn run build:gh",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
